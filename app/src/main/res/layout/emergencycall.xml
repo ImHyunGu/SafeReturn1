@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/help2" >
+
+    <TextView
+        android:id="@+id/call1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="230dp"
+        android:text="☎  112 : 범죄신고"
+        android:textColor="#D77D32"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/call2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="270dp"
+        android:text="☎  119 : 긴급구조신고"
+        android:textColor="#B22222"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/call3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="310dp"
+        android:text="☎  1366 : 여성보호"
+        android:textColor="#282828"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/call4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="350dp"
+        android:text="☎  1391 : 아동학대"
+        android:textColor="#288C28"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/call5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="390dp"
+        android:text="☎ 182 : 미아/가출 신고"
+        android:textColor="#D77D32"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/call6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="430dp"
+        android:text="☎ 02-2075-8777 : 성범죄자 알림e"
+        android:textColor="#B22222"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/call1b"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="230dp"
+        android:textColor="#F4FFFF"
+        android:background="#7878AA"
+        android:text="Call"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/call2b"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="270dp"
+        android:textColor="#F4FFFF"
+        android:background="#7878AA"
+        android:text="Call"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/call3b"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="310dp"
+        android:textColor="#F4FFFF"
+        android:background="#7878AA"
+        android:text="Call"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/call4b"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:textColor="#F4FFFF"
+        android:background="#7878AA"
+        android:text="Call"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/call5b"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="390dp"
+        android:textColor="#F4FFFF"
+        android:background="#7878AA"
+        android:text="Call"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/call6b"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="430dp"
+        android:textColor="#F4FFFF"
+        android:background="#7878AA"
+        android:text="Call"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

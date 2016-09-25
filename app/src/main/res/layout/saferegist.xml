@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/regist" >
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:text="- 안전번호 등록 -"
+        android:textColor="#FFDCE1"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="등록"
+        android:layout_above="@+id/CheckBox1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:text="- 설정 상태 -"
+        android:textColor="#FFDCE1"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#bebebe"
+        android:layout_above="@+id/CheckBox1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </EditText>
+
+    <requestFocus />
+    <CheckBox
+        android:id="@+id/CheckBox1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:text="안전 모드 ON" />
+
+    <CheckBox
+        android:id="@+id/CheckBox2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/CheckBox1"
+        android:layout_below="@+id/CheckBox1"
+        android:text="안전 모드 OFF" />
+
+</RelativeLayout>
